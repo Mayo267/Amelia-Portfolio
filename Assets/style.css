@@ -1,1 +1,179 @@
+body{
+    background-image: url(../Images/newbackground.jpg);
+    /* perspective: 100px; */
+    
+    
+}
 
+#navbar{
+    height: 100px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+#buttons{
+    text-align: right;
+}
+
+#insta{
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.card-pic{
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px lightgray;
+    
+    margin: 20px;
+    cursor: pointer;
+    
+    
+}
+
+#images{
+    /* width:75%;
+    border: 2px solid black;
+    margin: 0 auto; */
+    /* display: flex;
+    justify-content:space-between; */
+    /* border: 2px solid black; */
+    width: 75%;
+    
+
+}
+
+#about-box{
+    border: 2px solid black;
+    width: 100%;
+    margin: 30px;
+    margin: 0 auto;
+    padding: 25px;
+    background-image: url(../Images/bio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+}
+
+#prof-image{
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 5px solid black;
+    
+}
+
+#contact-box{
+    border: 2px solid black;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 25px;
+
+    
+}
+
+/*==============================MEDIA QUERY============================= */
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url(../Images/newbackground.jpg);
+        /* perspective: 100px; */
+        background-size: 100%;
+        
+        
+    }
+    
+    #navbar{
+        height: 100px;
+        background: white;
+        border-bottom: 2px solid black;
+    }
+
+    #logo-nav{
+        width: 50px;
+        height: 50px;
+    }
+
+    #name-nav{
+        width: 300px;
+        height: 80px;
+
+
+    }
+    
+    #buttons{
+        text-align: right;
+    }
+    
+    #insta{
+        cursor: pointer;
+        margin-left: auto;
+    }
+    
+    .card-pic{
+        border-radius: 25px;
+        box-shadow: 10px 10px 10px lightgray;
+        margin: 0 auto;
+        
+        margin: 20px;
+        cursor: pointer;
+        height: 200px;
+        width: 200px;
+        
+        
+    }
+    
+    #images{
+        /* width:75%;
+        border: 2px solid black;
+        margin: 0 auto; */
+        /* display: flex;
+        justify-content:space-between; */
+        /* border: 2px solid black; */
+        width: 75%;
+        
+    
+    }
+    
+    #about-box{
+        border: 2px solid black;
+        width: 100%;
+        margin: 30px;
+        margin: 0 auto;
+        padding: 25px;
+        background-image: url(../Images/bio.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        border-radius: 25px;
+    }
+    
+    #prof-image{
+        margin: 0 auto;
+        border-radius: 25px;
+        border: 5px solid black;
+        height: 105px;
+        width: 100px;
+        margin: 10px;
+        
+        
+    }
+
+    #bio{
+        display: inline-block;
+        
+    }
+    
+    #contact-box{
+        border: 2px solid black;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    
+        
+    }
+    
+
+
+
+
+}

@@ -12,26 +12,104 @@
     <link rel="stylesheet" type="text/css" href="./Assets/style.css">
 
     <!-- ============= Jquery Link ============= -->
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Amelia Moore</a>
-            <a class="navbar-brand" href="#"></a>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <img id="logo-nav" src="./Images/logo-real.jpeg" width="90" height="90" class="d-inline-block align-top" alt="">
+            <img id="name-nav" src="./Images/name-logo.jpeg" width="400" height="90" class="d-inline-block align-top" alt="">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div id="buttons" class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Pictures</a>
-                <a class="nav-item nav-link" href="#">Other Things</a>
+                <a class="nav-item nav-link active" href="#">Booking & Appointments<span class="sr-only">(current)</span></a>
+                <a id="bio-button" class="nav-item nav-link" href="#">Bio</a>
+                <a class="nav-item nav-link" href="#">Healed Work</a>
                 </div>
+                <img id="insta" src="./Images/insta.png" width="75" height="75" class="d-inline-block align-top" alt="">
             </div>
     </nav>
+
+    <!-- <div id="card" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <img class="card-pic" src="Images/necklips.jpeg" height="200" width="200">
+            </div>
+    </div> -->
+
+    <div id="images" class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img class="card-pic" src="Images/necklips.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/handdevil.jpg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/beenug.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/hearteyes.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/roses.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/sunflowerquote.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/scaryrose.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                <img class="card-pic" src="Images/sunflower.jpeg" height="300" width="300">
+            </div>
+            <div class="col-sm">
+                    <img class="card-pic" src="Images/deadbear.jpeg" height="300" width="300">
+            </div>
+        </div>
+        </div>
     
+
+    <div id="about-box" class="container">
+    <div class="row">
+        <div class="col-3"><img id="prof-image" src="./Images//prof-pic.jpeg" height="200" width="200"  alt="Me" class="prof-image"></div>
+            
+        <div class="col-8">
+            <h1>Bio</h1>
+            <p id="bio">Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. </p>
+        </div>
+        
+    </div>
+</div>
+
+    <div id="contact-box" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <h3 style="text-align:center;">Contact</h3>
+        <form action= "mailto:amayo0925@gmail.com" method="POST" enctype="text/plain">
+                <div id="names-contact" class="row">
+                    <div class="col">
+                    <input type="text" id="firstName" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" id="lastName" class="form-control" placeholder="Last name">
+                </div>
+                </div>
+                <div id="names-contact" class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                    <button id="submit" value="Email This Form" type="button" class="btn btn-outline-success">Submit</button>
+                    
+                
+        </div>
     <!-- ============= JavaScript Link ============= -->
-    <script src="myscripts.js"></script>
+    <script src="./Assets/app.js"></script>
 </body>
 </html>
+
+
+<!-- insta link https://instagram.com/ameliamooretattoos?utm_source=ig_profile_share&igshid=8u2hu0dvlxh6 -->
