@@ -1,9 +1,20 @@
 body{
     background-image: url(../Images/newbackground.jpg);
     /* perspective: 100px; */
+    background-size: 50%;
     
     
 }
+
+#title{
+    font-family: 'Damion', cursive;
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    
+}
+
+
 
 #navbar{
     height: 100px;
@@ -17,17 +28,15 @@ body{
 
 #insta{
     cursor: pointer;
-    margin-left: auto;
+    
 }
 
 .card-pic{
     border-radius: 25px;
     box-shadow: 10px 10px 10px lightgray;
-    
-    margin: 20px;
+    margin: 0 auto;
     cursor: pointer;
-    
-    
+    margin: 20px;  
 }
 
 #images{
@@ -38,6 +47,8 @@ body{
     justify-content:space-between; */
     /* border: 2px solid black; */
     width: 75%;
+    margin: 0 auto;
+    text-align: center;
     
 
 }
@@ -81,6 +92,7 @@ body{
 
 #column{
     margin: 0 auto;
+   
 }
 
 /*==============================MEDIA QUERY============================= */
@@ -94,11 +106,20 @@ body{
         
         
     }
+
+    #title{
+        font-family: 'Damion', cursive;
+        font-size: 1.75em;
+    }
     
     #navbar{
         height: 100px;
         background: white;
         border-bottom: 2px solid black;
+    }
+
+    nav{
+        background: white;
     }
 
     #logo-nav{
@@ -120,6 +141,7 @@ body{
     #insta{
         cursor: pointer;
         margin-left: auto;
+        
     }
     
     .card-pic{
