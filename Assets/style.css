@@ -61,6 +61,14 @@ body{
     
 }
 
+#word-bio{
+    text-align: center;
+}
+
+#prof-picture{
+    border-radius: 20px;
+}
+
 #contact-box{
     border: 2px solid black;
     width: 90%;
@@ -69,6 +77,10 @@ body{
     border-radius: 25px;
 
     
+}
+
+#column{
+    margin: 0 auto;
 }
 
 /*==============================MEDIA QUERY============================= */
@@ -196,7 +208,7 @@ body{
     }
 
     #name-nav{
-        width: 250px;
+        width: 215px;
         height: 80px;
 
 
@@ -212,14 +224,16 @@ body{
     }
     
     .card-pic{
+        
         border-radius: 25px;
         box-shadow: 10px 10px 10px lightgray;
         margin: 0 auto;
-        
-        margin: 20px;
+        margin: 10px;
         cursor: pointer;
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        
         
         
     }
@@ -255,12 +269,27 @@ body{
         border: 5px solid black;
         height: 105px;
         width: 100px;
-        margin: 10px;
+        
+
+        
         
         
     }
+    #prof-picture{
+        border-radius: 20px;
+        height: 95px;
+        width: 90px;
+        margin: 0 auto;
+    }
+
+    #word-bio{
+        text-align: left;
+    }
+
+    
 
     #bio{
+        display: inline-block;
         
         
     }
