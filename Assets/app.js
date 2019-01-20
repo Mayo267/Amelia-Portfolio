@@ -9,4 +9,8 @@ $( document ).ready(function() {
     $("#insta").click(function(){
         window.open('https://instagram.com/ameliamooretattoos?utm_source=ig_profile_share&igshid=8u2hu0dvlxh6', '_blank');
     });
+
+    $("#merch").click(function(){
+        window.open('https://www.redbubble.com/people/ameliamtattoos', '_blank');
+    });
 });
